@@ -1,7 +1,7 @@
 import { indexedDB, store } from './config'
 import setStore from './methods/setStore'
-import initDB from './methods/initDB'
 import openDB from './methods/openDB'
+import createIndex from './methods/createIndex'
 import closeDB from './methods/closeDB'
 import insertDB from './methods/insertDB'
 import deleteDB from './methods/deleteDB'
